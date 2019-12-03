@@ -1,5 +1,5 @@
 flows:
-  663ceeb3-3e50-426a-bc10-010efcd1764a: {ver: 1, file: pg_01.snapshot, comments: Initial
-      state..., author: anonymous, created: 1575400310170, flowName: pg_01, flowDesc: pg_01}
+  663ceeb3-3e50-426a-bc10-010efcd1764a: {ver: 2, file: pg_01.snapshot, comments: First
+      edit, author: anonymous, created: 1575400416092, flowName: pg_01, flowDesc: pg_01}
 layoutVer: 1
 bucketId: b31823a3-3c23-4b78-944f-b5ffdd95c303
