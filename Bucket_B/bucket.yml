@@ -1,5 +1,5 @@
 flows:
-  da9b1d1a-bcef-419d-8666-8541dbdafa60: {ver: 2, file: pg_b_01.snapshot, comments: Test
-      - 1850, author: anonymous, created: 1575503453723, flowName: pg_b_01, flowDesc: pg_b_01}
+  da9b1d1a-bcef-419d-8666-8541dbdafa60: {ver: 3, file: pg_b_01.snapshot, comments: '1853',
+    author: anonymous, created: 1575503637501, flowName: pg_b_01, flowDesc: pg_b_01}
 layoutVer: 1
 bucketId: 36facfc1-f646-4576-9698-77d63bcf2261
