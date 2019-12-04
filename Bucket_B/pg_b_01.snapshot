@@ -15,14 +15,14 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "2720195e-22d9-3f74-8e7d-6aef6d817c30",
-            "id" : "25beaf9f-6f1e-35e2-9c0a-bd2cb658ce52",
+            "groupId" : "aa69926c-aaa2-3e98-b699-ac4a76955c1f",
+            "id" : "0ccd31ef-b2bd-3aa9-87af-dcd8d5971c55",
             "name" : "PutFile",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "2720195e-22d9-3f74-8e7d-6aef6d817c30",
-          "identifier" : "12e5e2d7-ed38-3e5d-b18e-7d4f973b140c",
+          "groupIdentifier" : "aa69926c-aaa2-3e98-b699-ac4a76955c1f",
+          "identifier" : "f9ebb288-a2e7-3d24-9b9b-6c32b3255eea",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
           "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
@@ -32,7 +32,7 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "2720195e-22d9-3f74-8e7d-6aef6d817c30",
+            "groupId" : "aa69926c-aaa2-3e98-b699-ac4a76955c1f",
             "id" : "0e042196-7330-3cd1-bedf-a6cdfa89357d",
             "name" : "GetFile",
             "type" : "PROCESSOR"
@@ -45,13 +45,43 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "2720195e-22d9-3f74-8e7d-6aef6d817c30",
+            "groupId" : "aa69926c-aaa2-3e98-b699-ac4a76955c1f",
+            "id" : "25beaf9f-6f1e-35e2-9c0a-bd2cb658ce52",
+            "name" : "PutFile",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "aa69926c-aaa2-3e98-b699-ac4a76955c1f",
+          "identifier" : "12e5e2d7-ed38-3e5d-b18e-7d4f973b140c",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "success" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "aa69926c-aaa2-3e98-b699-ac4a76955c1f",
+            "id" : "0e042196-7330-3cd1-bedf-a6cdfa89357d",
+            "name" : "GetFile",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "aa69926c-aaa2-3e98-b699-ac4a76955c1f",
             "id" : "77ea28cd-8438-3d51-b540-eb25bd5acabc",
             "name" : "PutFile",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "2720195e-22d9-3f74-8e7d-6aef6d817c30",
+          "groupIdentifier" : "aa69926c-aaa2-3e98-b699-ac4a76955c1f",
           "identifier" : "68d8f6f2-453f-3e67-93e1-5431c02634ad",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -62,7 +92,7 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "2720195e-22d9-3f74-8e7d-6aef6d817c30",
+            "groupId" : "aa69926c-aaa2-3e98-b699-ac4a76955c1f",
             "id" : "0e042196-7330-3cd1-bedf-a6cdfa89357d",
             "name" : "GetFile",
             "type" : "PROCESSOR"
@@ -71,13 +101,13 @@
         } ],
         "controllerServices" : [ ],
         "funnels" : [ ],
-        "identifier" : "2720195e-22d9-3f74-8e7d-6aef6d817c30",
+        "identifier" : "aa69926c-aaa2-3e98-b699-ac4a76955c1f",
         "inputPorts" : [ ],
         "labels" : [ ],
         "name" : "pg_b_01",
         "outputPorts" : [ ],
         "position" : {
-          "x" : 264.0,
+          "x" : 728.0,
           "y" : 424.0
         },
         "processGroups" : [ ],
@@ -93,7 +123,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "2720195e-22d9-3f74-8e7d-6aef6d817c30",
+          "groupIdentifier" : "aa69926c-aaa2-3e98-b699-ac4a76955c1f",
           "identifier" : "77ea28cd-8438-3d51-b540-eb25bd5acabc",
           "name" : "PutFile",
           "penaltyDuration" : "30 sec",
@@ -174,7 +204,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "2720195e-22d9-3f74-8e7d-6aef6d817c30",
+          "groupIdentifier" : "aa69926c-aaa2-3e98-b699-ac4a76955c1f",
           "identifier" : "0e042196-7330-3cd1-bedf-a6cdfa89357d",
           "name" : "GetFile",
           "penaltyDuration" : "30 sec",
@@ -285,13 +315,94 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "2720195e-22d9-3f74-8e7d-6aef6d817c30",
+          "groupIdentifier" : "aa69926c-aaa2-3e98-b699-ac4a76955c1f",
           "identifier" : "25beaf9f-6f1e-35e2-9c0a-bd2cb658ce52",
           "name" : "PutFile",
           "penaltyDuration" : "30 sec",
           "position" : {
             "x" : 240.0,
             "y" : 336.0
+          },
+          "properties" : {
+            "Create Missing Directories" : "true",
+            "Conflict Resolution Strategy" : "fail"
+          },
+          "propertyDescriptors" : {
+            "Group" : {
+              "displayName" : "Group",
+              "identifiesControllerService" : false,
+              "name" : "Group",
+              "sensitive" : false
+            },
+            "Owner" : {
+              "displayName" : "Owner",
+              "identifiesControllerService" : false,
+              "name" : "Owner",
+              "sensitive" : false
+            },
+            "Create Missing Directories" : {
+              "displayName" : "Create Missing Directories",
+              "identifiesControllerService" : false,
+              "name" : "Create Missing Directories",
+              "sensitive" : false
+            },
+            "Permissions" : {
+              "displayName" : "Permissions",
+              "identifiesControllerService" : false,
+              "name" : "Permissions",
+              "sensitive" : false
+            },
+            "Maximum File Count" : {
+              "displayName" : "Maximum File Count",
+              "identifiesControllerService" : false,
+              "name" : "Maximum File Count",
+              "sensitive" : false
+            },
+            "Last Modified Time" : {
+              "displayName" : "Last Modified Time",
+              "identifiesControllerService" : false,
+              "name" : "Last Modified Time",
+              "sensitive" : false
+            },
+            "Directory" : {
+              "displayName" : "Directory",
+              "identifiesControllerService" : false,
+              "name" : "Directory",
+              "sensitive" : false
+            },
+            "Conflict Resolution Strategy" : {
+              "displayName" : "Conflict Resolution Strategy",
+              "identifiesControllerService" : false,
+              "name" : "Conflict Resolution Strategy",
+              "sensitive" : false
+            }
+          },
+          "runDurationMillis" : 0,
+          "scheduledState" : "ENABLED",
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.standard.PutFile",
+          "yieldDuration" : "1 sec"
+        }, {
+          "autoTerminatedRelationships" : [ ],
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-standard-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.10.0"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "aa69926c-aaa2-3e98-b699-ac4a76955c1f",
+          "identifier" : "0ccd31ef-b2bd-3aa9-87af-dcd8d5971c55",
+          "name" : "PutFile",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 952.0,
+            "y" : 96.0
           },
           "properties" : {
             "Create Missing Directories" : "true",
