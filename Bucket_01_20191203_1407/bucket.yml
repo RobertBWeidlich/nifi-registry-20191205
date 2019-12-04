@@ -1,4 +1,6 @@
 flows:
+  77fc4edb-3a66-4122-bf4c-bfbdacf079aa: {ver: 1, file: pg_b_02.snapshot, comments: pg_b_02,
+    author: anonymous, created: 1575503219392, flowName: pg_b_02, flowDesc: pg_b_02}
   663ceeb3-3e50-426a-bc10-010efcd1764a: {ver: 3, file: pg_01.snapshot, comments: added
       another putfile processor, author: anonymous, created: 1575400590699, flowName: pg_01,
     flowDesc: pg_01}
