@@ -128,8 +128,8 @@
           "name" : "PutFile",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 664.0,
-            "y" : 336.0
+            "x" : 744.0,
+            "y" : 296.0
           },
           "properties" : {
             "Create Missing Directories" : "true",
